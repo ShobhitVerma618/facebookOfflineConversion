@@ -8,7 +8,7 @@ const port = 3119; // You can change this to any port you prefer
 app.use(bodyParser.json());
 
 // Route for receiving webhook POST requests
-app.post('/recieveWebhook', (req, res) => {
+app.post('/Webhook2', (req, res) => {
   // Handle the incoming webhook data here
   const webhookData = req.body;
 
